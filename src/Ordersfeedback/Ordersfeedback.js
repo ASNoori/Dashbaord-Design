@@ -137,10 +137,10 @@ export default function Ordersfeedback() {
         <div className="divider"></div>
         <div className="feedback">
           <div className="customername">
-            <img className="feedback-img" src={person3} alt="customer1" />
-            <h4>Jenny Wilson</h4>
+            <img className="feedback-img" src={person5} alt="customer2" />
+            <h4>Dianne Russell</h4>
             </div>
-            <Rating name="read-only" value={4} readOnly  className="rating"/>
+            <Rating name="read-only" value={5} readOnly  className="rating"/>
             <p>
               Lorem ipsum dolor sit amet consectetur, adipisicing elit.
               Dignissimos magnam commodi quae, fuga ipsam, magni aliquid, optio
@@ -151,8 +151,8 @@ export default function Ordersfeedback() {
         <div className="divider"></div>
         <div className="feedback">
           <div className="customername">
-            <img className="feedback-img" src={person3} alt="customer1" />
-            <h4>Jenny Wilson</h4>
+            <img className="feedback-img" src={person1} alt="customer1" />
+            <h4>Devon Lane</h4>
             </div>
             <Rating name="read-only" value={4} readOnly  className="rating"/>
             <p>
