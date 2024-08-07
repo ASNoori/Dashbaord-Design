@@ -1,0 +1,12 @@
+.dashboard-container{
+   width: calc(100%-80px);
+  margin-left:80px;
+  background-color: #141416;
+  height:100vh;
+  overflow-y: auto;
+
+}
+.dashbaord-heading{
+    color:#fff;
+    padding:20px;
+}

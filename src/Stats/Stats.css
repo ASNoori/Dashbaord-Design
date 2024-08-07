@@ -1,0 +1,168 @@
+ .container{
+    width:100%;
+   display: flex;
+   justify-content: space-evenly;
+}
+
+ 
+.stats-container{
+    display: flex;
+   gap:12px;
+}
+.stats-item-container{
+   width: 120px;
+    height:120px;
+    background-color: #202028;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 10px;
+    padding:10px;
+    color:#fff;
+}
+.netstats-container{
+    width:380px;
+    height:120px;
+    background-color: #202028;
+    border-radius: 10px;
+    padding:20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color:#fff;
+}
+.sub-netstats{
+    display: flex;
+    flex-direction: column;
+}
+.sub-net{
+    display: flex;
+    flex-direction: column;
+}
+.circle-text{
+    font-size: 8px;
+}
+.netstat-item{
+    margin-bottom:4px;
+}
+.netstats-heading{
+    font-weight:normal;
+}
+.stats-heading{
+    font-weight:normal;
+    font-size: 10px;
+}
+.stats-icon-container{
+    position: relative;
+}
+.order-icon{
+    width:40px;
+    height:40px;
+    background-color: #283267;
+    color:#3e60f6;
+    padding:10px;
+    border-radius: 10px;
+}
+.sub-order-icon{
+position: absolute;
+left:25px;
+top:22px;
+font-size:10px;
+}
+
+.order-stats-container{
+    display: flex;
+    justify-content: space-between;
+}
+.order-stats{
+    margin-top: 4px;
+    color:#0ab383;
+}
+.deliver-icon{
+
+    width:40px;
+    height:40px;
+    background-color: #165246;
+    color:#00c98d;
+    padding:10px;
+    border-radius: 10px;
+}
+.sub-deliver-icon{
+position: absolute;
+left:25px;
+top:22px;
+font-size:10px;
+}
+.deliver-stats{
+    margin-top: 4px;
+    color:#e25656;
+}
+.cancel-icon{
+
+    width:40px;
+    height:40px;
+    background-color: #98474a;
+    color:#f25e5e;
+    padding:10px;
+    border-radius: 10px;
+}
+.sub-cancel-icon{
+position: absolute;
+left:25px;
+top:22px;
+font-size:10px;
+}
+.cancel-stats{
+    margin-top: 4px;
+    color:#0ab383;
+}
+.revenue-stats{
+   color:#e25656;
+   margin-top: 4px;
+}
+.revenue-icon{
+    width:40px;
+    height:40px;
+    font-size:10px;
+    background-color: #5f2949;
+    color:#e643a0;
+    padding:10px;
+    border-radius: 10px;
+}
+.circular-text{
+    font-weight: bold;
+   font-size:20px;
+   margin:0 10px;
+}
+.circular-sub-text{
+    font-size: 8px;
+    text-align: center;
+}
+@media(max-width:1000px){
+    .container{
+    flex-direction: column;
+    align-items: center;
+     
+    }
+    .stats-container{
+        flex-wrap: wrap;
+        flex-direction:row;
+        margin-bottom: 20px;
+        gap:12px;
+    }
+ }   
+ @media(max-width:630px){
+    .stats-container{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+ }
+ @media(max-width:500px){
+    .netstats-container{
+        width:280px;
+      
+    }
+    .sub-netstats{
+        margin-right:10px;
+    }
+ }

@@ -1,0 +1,131 @@
+.main-container{
+    width:100%;
+    display: flex;
+    justify-content: space-evenly;
+    height:auto;   
+}
+.chart-container{
+    display:flex;
+    flex-direction: column;
+    width:520px;
+    height:250px;
+    background-color: #202028;
+    margin-top:20px;
+    border-radius: 10px;
+}
+.heading-container{
+    display:flex;
+    justify-content: space-between;
+   
+    /* margin-left:90px; */
+    border-radius:10px;
+}
+.barchart-container{
+    width:520px;
+    height:250px;
+}
+.heading{
+    color:#fff;
+    padding:20px;
+}
+select{
+    color:#fff;
+    background-color: #333541;
+    border-radius: 20px;
+    margin:20px;
+    padding:4px;
+    border:none;
+    outline:none;
+}
+
+.goals-container{
+    width:380px;
+    height:250px;
+    background-color: #202028;
+    margin-top:20px;
+    border-radius:10px;
+}
+.goal-row1{
+    display: flex;
+    justify-content: space-between;
+    padding:10px;
+    margin:10px;
+}
+.sub-goal-row{
+    display:flex;
+}
+.goal-text{
+    color:#fff;
+    font-size: 18px;
+    margin-top:10px;
+}
+.target-icon{
+    width:40px;
+    height:40px;
+    background-color: #5f3237;
+    color:#e16226;
+    border-radius: 40px;
+   font-size:20px;
+   padding:10px;
+   margin-right:20px;
+   margin-left:0px;
+}
+.dish-icon{
+    width:40px;
+    height:40px;
+    background-color: #293166;
+    border-radius: 40px;
+   font-size:20px;
+   padding:10px;
+   margin-right:20px;
+   margin-left:0px;
+   color:#566ec3;
+}
+.menu-icon{
+    width:40px;
+    height:40px;
+    background-color: #214a60;
+    border-radius: 40px;
+   font-size:20px;
+   padding:10px;
+   margin-right:20px;
+   margin-left:0px;
+   color:#2288b9;
+}
+.right-arw-icon{
+    color: #46474c;
+    margin-top: 10px;
+}
+@media(max-width:1000px){
+    .main-container{
+    flex-direction: column;
+    align-items: center;
+    }
+   
+}
+@media(max-width:650px){
+    .chart-container{
+        width:380px;
+        height:250px;
+    }
+    .barchart-container{
+        width:380px;
+        height:250px;
+    }
+   
+}
+@media(max-width:600px){
+    .chart-container{
+        width:300px;
+        height:250px;
+    }
+    .barchart-container{
+        width:300px;
+        height:250px;
+    }
+}
+@media(max-width:500px){
+    .goals-container{
+        width:280px;
+      
+    }}
